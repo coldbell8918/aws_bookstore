@@ -11,7 +11,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
-    world_file_name = "bookstore.world"
+    world_file_name = "hnm.world"
     world = os.path.join(get_package_share_directory('aws_robomaker_bookstore_world'), 'worlds', world_file_name)
     
     launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
